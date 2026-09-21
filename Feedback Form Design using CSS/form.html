@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Feedback Form</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+
+    <h1 align="center">My Feedback Form</h1>
+
+    <form>
+
+        Name:
+        <input type="text" name="name">
+        <br><br>
+
+        Email:
+        <input type="email" name="email">
+        <br><br>
+
+        Password:
+        <input type="password" name="password">
+        <br><br>
+
+        Please check all the emotions that apply to you:
+        <br><br>
+
+        Angry
+        <input type="checkbox" name="emotion" value="angry">
+        <br>
+
+        Sad
+        <input type="checkbox" name="emotion" value="sad">
+        <br>
+
+        Happy
+        <input type="checkbox" name="emotion" value="happy">
+        <br>
+
+        Ambivalent
+        <input type="checkbox" name="emotion" value="ambivalent">
+        <br><br>
+
+        How satisfied were you with our service?
+        <br><br>
+
+        Very Satisfied
+        <input type="radio" name="satisfaction" value="very_satisfied">
+        <br>
+
+        Satisfied
+        <input type="radio" name="satisfaction" value="satisfied">
+        <br>
+
+        Didn't care
+        <input type="radio" name="satisfaction" value="didnt_care">
+        <br>
+
+        Dissatisfied
+        <input type="radio" name="satisfaction" value="dissatisfied">
+        <br>
+
+        Very Dissatisfied
+        <input type="radio" name="satisfaction" value="very_dissatisfied">
+        <br><br>
+
+        Further comments:
+        <textarea name="comments" rows="4" cols="30"></textarea>
+        <br><br>
+
+        Bio photo:
+        <input type="file" name="photo" accept=".png,.jpg,.jpeg">
+        <br><br>
+
+        Location Visited:
+        <select name="location">
+            <option value="">Select Location</option>
+            <option value="Mangalore">Mangalore</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Mysore">Mysore</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

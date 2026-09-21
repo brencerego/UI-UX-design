@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+p{
+    color:(54, 159, 219)   
+}
+body{
+    background-color: rgb(149, 202, 233);
+
+} 
+div{
+    margin: 20px;
+}

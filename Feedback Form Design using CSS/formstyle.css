@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(149, 202, 233);
+}
+
+form {
+    background-color: white;
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+}
